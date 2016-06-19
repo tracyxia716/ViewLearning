@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0000">
+
+    <Button
+        android:id="@+id/switchslide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="switch" />
+
+    <RelativeLayout
+        android:id="@+id/main_area"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="#fff000">
+
+        <TextView
+            android:id="@+id/main_text"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="left"
+            android:textColor="#000000"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="#f0f"
+            android:gravity="center"
+            android:text="right"
+            android:textSize="32sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/scrollby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_area"
+        android:layout_centerHorizontal="true"
+        android:text="scroolby" />
+
+    <Button
+        android:id="@+id/scrollTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollby"
+        android:layout_centerHorizontal="true"
+        android:text="scrollT0" />
+
+</RelativeLayout>

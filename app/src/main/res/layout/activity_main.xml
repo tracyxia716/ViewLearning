@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myview.viewlearning.MainActivity">
+
+    <com.myview.viewlearning.widget.SlideMenu
+        android:id="@+id/slide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/slide_left" />
+
+        <include layout="@layout/slide_right" />
+    </com.myview.viewlearning.widget.SlideMenu>
+
+</RelativeLayout>
