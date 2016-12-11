@@ -1,4 +1,4 @@
-package com.myview.viewlearning.widget;
+package com.myview.viewlearning.scrolled;
 
 import android.content.Context;
 import android.graphics.Canvas;

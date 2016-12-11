@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.myview.viewlearning.MainActivity">
+    tools:context="com.myview.viewlearning.scrolled.ScrolledActivity">
 
-    <com.myview.viewlearning.widget.SlideMenu
+    <com.myview.viewlearning.scrolled.SlideMenu
         android:id="@+id/slide"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -13,6 +13,6 @@
         <include layout="@layout/slide_left" />
 
         <include layout="@layout/slide_right" />
-    </com.myview.viewlearning.widget.SlideMenu>
+    </com.myview.viewlearning.scrolled.SlideMenu>
 
 </RelativeLayout>

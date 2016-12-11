@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_scrolled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="scrolledActivity" />
+
+    <Button
+        android:id="@+id/btn_coordinatorlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout" />
+
+    <Button
+        android:id="@+id/btn_zhihu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="zhihu" />
+
+</LinearLayout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ViewLearning</string>
+    <string name="scale_up_show_behavior">com.myview.viewlearning.coordinator.behavior.ScaleUpShowBehavior</string>
+    <string name="scale_down_show_behavior">com.myview.viewlearning.zhihu.ScaleDownShowBehavior</string>
 </resources>

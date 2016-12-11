@@ -7,7 +7,7 @@
     <option name="id" value="1454224500280" />
     <option name="importOrdering" value="ECLIPSE_451" />
     <option name="name" value="default" />
-    <option name="pathToConfigFileJava" value="$USER_HOME$/Downloads/MyProject/faylistview/FayListView/FayListView/.settings/org.eclipse.jdt.core.prefs" />
+    <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../../org.eclipse.jdt.core.prefs" />
     <option name="pathToEclipse" value="$USER_HOME$/Downloads/eclipse" />
     <option name="useOldEclipseJavaFormatter" value="true" />
   </component>
